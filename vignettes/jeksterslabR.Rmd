@@ -1,0 +1,36 @@
+---
+title: "Introduction to jeksterslabR"
+author: "Ivan Jacob Agaloos Pesigan"
+date: "`r Sys.Date()`"
+description: >
+  Learn how to get started with the basics of jeksterslabR.
+output:
+  rmarkdown::html_vignette:
+    toc: true
+vignette: >
+  %\VignetteIndexEntry{Introduction to jeksterslabR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+A package to install `jeksterslabR*` packages
+and their dependencies.
+
+## Installation
+
+You can install the released version of `jeksterslabR` from [GitHub](https://github.com/jeksterslabds/jeksterslabR) with:
+
+```r
+library(devtools)
+install_github("jeksterslabds/jeksterslabR")
+```
+
+The rest of the `jeksterslabR*` packages are installed
+by installing `jeksterslabR`.
