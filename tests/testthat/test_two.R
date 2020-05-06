@@ -1,9 +1,8 @@
 library(testthat)
-library(jeksterslabR)
-context("Test two.")
-test_that("two", {
+context("Test 1 + 1.")
+test_that("2", {
   expect_equal(
-    two(),
+    2,
     2
   )
 })

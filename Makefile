@@ -4,6 +4,7 @@ PKG=$(PREFIX)/jeksterslabR
 .PHONY: all clean rm
 
 all : rm
+	cp $(PKG)/inst/extdata/imports $(PKG)/NAMESPACE
 	Rscript -e 'jeksterslabRpkg::pkg_build("$(PKG)", git = TRUE, github = TRUE, commit_msg = "Automated build")'
 
 clean : rm

@@ -23,6 +23,7 @@ SystemRequirements:
 Depends:
 	R (>= 3.5.0)
 Imports:
+    testthat,
     jeksterslabRdoc,
     jeksterslabRds,
     jeksterslabRlib,
@@ -39,7 +40,5 @@ Remotes:
     jeksterslabds/jeksterslabRterm,
     jeksterslabds/jeksterslabRutils
 Suggests:
-	knitr,
-	rmarkdown,
-	testthat
+	knitr
 RoxygenNote: 7.1.0
