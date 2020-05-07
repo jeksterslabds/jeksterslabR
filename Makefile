@@ -9,7 +9,7 @@ all : rm
 
 clean : rm
 	git add --all
-	git commit -m "Automated clean."
+	git commit -m "[skip ci] Automated clean."
 	git push
 
 rm :
