@@ -7,6 +7,11 @@ r:
 os:
 - linux
 - osx
+jobs:
+  exclude:
+  # macOS binary packages not available for r-devel
+  - r: devel
+    os: osx
 cache: packages
 before_install:
 - Rscript -e 'if (!require("covr")) install.packages("covr")'
