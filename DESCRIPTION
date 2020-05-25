@@ -30,7 +30,10 @@ Imports:
     jeksterslabRnotes,
     jeksterslabRpkg,
     jeksterslabRterm,
-    jeksterslabRutils
+    jeksterslabRutils,
+    jeksterslabRlinreg,
+    magick,
+    pdftools
 Remotes:
     jeksterslabds/jeksterslabRdoc,
     jeksterslabds/jeksterslabRds,
@@ -38,7 +41,8 @@ Remotes:
     jeksterslabds/jeksterslabRnotes,
     jeksterslabds/jeksterslabRpkg,
     jeksterslabds/jeksterslabRterm,
-    jeksterslabds/jeksterslabRutils
+    jeksterslabds/jeksterslabRutils,
+    jeksterslabds/jeksterslabRlinreg
 Suggests:
 	knitr
 RoxygenNote: 7.1.0
