@@ -33,7 +33,8 @@ Imports:
     jeksterslabRutils,
     jeksterslabRlinreg,
     magick,
-    pdftools
+    pdftools,
+    microbenchmark
 Remotes:
     jeksterslabds/jeksterslabRdoc,
     jeksterslabds/jeksterslabRds,
