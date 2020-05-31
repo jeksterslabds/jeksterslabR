@@ -1,3 +1,4 @@
+import(jeksterslabRdist)
 import(jeksterslabRdoc)
 import(jeksterslabRds)
 import(jeksterslabRlib)
