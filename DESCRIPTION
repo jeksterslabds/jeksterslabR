@@ -24,6 +24,7 @@ Depends:
 	R (>= 3.5.0)
 Imports:
     testthat,
+    jeksterslabRdist,
     jeksterslabRdoc,
     jeksterslabRds,
     jeksterslabRlib,
@@ -32,10 +33,13 @@ Imports:
     jeksterslabRterm,
     jeksterslabRutils,
     jeksterslabRlinreg,
+    jeksterslabRmatrix,
+    jeksterslabRsem,
     magick,
     pdftools,
     microbenchmark
 Remotes:
+    jeksterslabds/jeksterslabRdist,
     jeksterslabds/jeksterslabRdoc,
     jeksterslabds/jeksterslabRds,
     jeksterslabds/jeksterslabRlib,
@@ -43,7 +47,9 @@ Remotes:
     jeksterslabds/jeksterslabRpkg,
     jeksterslabds/jeksterslabRterm,
     jeksterslabds/jeksterslabRutils,
-    jeksterslabds/jeksterslabRlinreg
+    jeksterslabds/jeksterslabRlinreg,
+    jeksterslabds/jeksterslabRmatrix,
+    jeksterslabds/jeksterslabRsem
 Suggests:
 	knitr
 RoxygenNote: 7.1.0
