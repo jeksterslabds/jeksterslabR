@@ -37,8 +37,6 @@ Imports:
     jeksterslabRterm,
     jeksterslabRutils,
     testthat,
-    magick,
-    pdftools,
     microbenchmark
 Remotes:
     jeksterslabds/jeksterslabRdata,

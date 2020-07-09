@@ -1,3 +1,6 @@
+#' @import jeksterslabRdata
+#' @import jeksterslabRdatarepo
+#' @import jeksterslabRboot
 #' @import jeksterslabRsem
 #' @import jeksterslabRlinreg
 #' @import jeksterslabRdist
